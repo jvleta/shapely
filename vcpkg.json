@@ -1,7 +1,7 @@
 {
-    "name": "cpp-samples-cloud-run-hello-world",
+    "name": "shapely",
     "version-string": "unversioned",
-    "homepage": "https://github.com/GoogleCloudPlatform/cpp-samples/",
+    "homepage": "https://github.com/jvleta/shapely/",
     "description": [
       "Shows how to deploy a C++ application to Cloud Run."
     ],

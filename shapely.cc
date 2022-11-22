@@ -4,7 +4,7 @@
 namespace gcf = ::google::cloud::functions;
 
 auto hello_world_http() {
-  return gcf::MakeFunction([](gcf::HttpRequest const & /*request*/) {
+  return gcf::MakeFunction([](gcf::HttpRequest const & request) {
     std::string greeting = "Hello ";
     auto const *target = std::getenv("TARGET");
     greeting += target == nullptr ? "World" : target;
